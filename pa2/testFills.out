@@ -1,0 +1,28 @@
+./vor.cpp, line 37: Making dotColorPicker
+./vor.cpp, line 39: Calling vor<Queue>(dotColorPicker)
+testFills.cpp, line 199: Finished writing result
+./vor.cpp, line 37: Making dotColorPicker
+./vor.cpp, line 39: Calling vor<Queue>(dotColorPicker)
+testFills.cpp, line 226: Finished writing result
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+testFills is a Catch v1.9.7 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+fill::dot bfs last frame
+-------------------------------------------------------------------------------
+testFills.cpp:216
+...............................................................................
+
+testFills.cpp:233: FAILED:
+  REQUIRE( lastFrame == expected )
+with expansion:
+  PNG(w=0, h=0, hash=0)
+  ==
+  PNG(w=150, h=150, hash=efbadb8c39520310)
+
+===============================================================================
+test cases: 2 | 1 passed | 1 failed
+assertions: 4 | 3 passed | 1 failed
+
